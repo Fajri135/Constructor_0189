@@ -28,6 +28,18 @@ void Mahasiswa::printAll() {
 
 int main()
 {
-;
-}
+    Mahasiswa mhs1("Sri Dadi");
+    Mahasiswa mhs2("Budi Jatmiko");
+    Mahasiswa::setNim(9);   //Mengakses nim melalui static member fuction
+    Mahasiswa mhs3("Andi Janu");
+    Mahasiswa mhs4("Joko Wahana");
+    
+    mhs1.printAll();
+    mhs2.printAll();
+    mhs3.printAll();
+    mhs4.printAll();
 
+    system("pause");
+
+    return 0;
+}
