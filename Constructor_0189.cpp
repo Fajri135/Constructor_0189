@@ -17,6 +17,7 @@ public:
     }
 };
 
+int Mahasiswa::nim = 189;
 
 
 void Mahasiswa::printAll() {
