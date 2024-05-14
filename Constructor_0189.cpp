@@ -12,7 +12,12 @@ public:
     void setID();
     void printAll();
 
-}
+    Mahasiswa(string pnama) :nama(pnama) {
+        setID();
+    }
+};
+
+
 
 void Mahasiswa::printAll() {
     cout << "ID = " << id << endl;
